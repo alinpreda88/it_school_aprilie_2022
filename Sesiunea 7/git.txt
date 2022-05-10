@@ -1,0 +1,39 @@
+# Clone repo - descarca tot codul
+git clone URL
+
+# Initializare repo
+git init
+
+# Verifiare stare
+git status
+
+# Adaugare fisiere pentru a fi incluse in urmatorul commit
+git add Nume_fisier nume_fisier nume_fisier
+# Adaugare toate fisierele
+git add .
+
+# Stergere fisiere din lista de modificari commit
+git rm --cached nume_fisier
+
+# commit - salveaza starea curenta
+git commit -m "Mesaj"
+git commit 
+# Se iese din editor cu ESC : wq Enter
+
+# Afiseaza configuratia
+git config --global -l
+
+# Configureaza e-mail si nume
+git config --global user.email "adresa de e-mail"
+git config --global user.name "nume prenume"
+
+# Afiseaza istorie
+git log
+
+
+
+
+
+
+
+
