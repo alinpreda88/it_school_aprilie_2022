@@ -13,6 +13,6 @@ def factorial(n):
 4. 1
 '''
 
-print(factorial(100))
+
 print(factorial(10))
-print(factorial(3))
+
