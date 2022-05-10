@@ -30,10 +30,17 @@ git config --global user.name "nume prenume"
 # Afiseaza istorie
 git log
 
-# Intoarcere la starea fisierului anterior salvarii
+# Intoarcere la starea fisierului anterior salvarii - reset la commit
 git reset --soft nume_comit
 
+# Uploadeaza modificari
+git push
 
+# Descarcam cele mai noi modificari
+git pull
+
+# Afiseaa modificarile in terminal
+git diff
 
 
 
