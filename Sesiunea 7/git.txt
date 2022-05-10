@@ -30,6 +30,11 @@ git config --global user.name "nume prenume"
 # Afiseaza istorie
 git log
 
+# Intoarcere la starea fisierului anterior salvarii
+git reset --soft nume_comit
+
+
+
 
 
 
