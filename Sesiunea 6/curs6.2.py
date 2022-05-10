@@ -1,0 +1,11 @@
+'''
+Parametrii cu valoare initiala
+
+'''
+
+def hello(name = "Guest"):
+    """Print welcome message. Default name is Guest."""
+    print("Hello and welcome,", name, "!")
+
+hello()
+hello("Alin")
