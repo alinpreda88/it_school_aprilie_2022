@@ -42,6 +42,8 @@ git pull
 # Afiseaa modificarile in terminal
 git diff
 
+# Pentru setare fisiere care nu se doresc push'ate pe server
+# cream in radacina repo-ului un .gitignore(unde adaugam fisierele respective)
 
 
 
